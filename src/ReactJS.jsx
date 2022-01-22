@@ -7,10 +7,13 @@ const ReactJS = () => {
   const handleOnClick = () => {
     const location = {
       pathname: '/redux',
-    }
+      state: {
+        isActive: true,
+      }
+    };
 
     navigate(location);
-  }
+  };
 
   return (
     <article>
