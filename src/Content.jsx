@@ -18,7 +18,7 @@ const Content = () => {
         <Route element={<ReactJS/>} path="/react" />
         <Route element={<Redux/>} path="/redux" />
         <Route element={<TypeScript/>} path="/typescript" />
-        {/* <Navigate from="*" to="/" /> */}
+        <Route element={<Navigate from="*" to="/" />} />
       </Routes>
     </main>
   );
