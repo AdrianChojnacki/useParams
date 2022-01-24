@@ -5,14 +5,11 @@ const ReactJS = () => {
   const navigate = useNavigate();
 
   const handleOnClick = () => {
-    const location = {
-      pathname: '/redux',
+    navigate('/redux', {
       state: {
         isActive: true,
       }
-    };
-
-    navigate(location);
+    });
   };
 
   return (
