@@ -9,7 +9,7 @@ const Mobx = () => {
   const handleOnChange = event => setInputData(event.target.value);
 
   const handleOnClick = () => {
-    navigate(`/typescript#${inputData}`);
+    navigate(`/typescript/${inputData}`);
   }
 
   return (

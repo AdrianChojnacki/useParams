@@ -17,7 +17,7 @@ const Content = () => {
         <Route element={<Mobx/>} path="/mobx" />
         <Route element={<ReactJS/>} path="/react" />
         <Route element={<Redux/>} path="/redux" />
-        <Route element={<TypeScript/>} path="/typescript" />
+        <Route element={<TypeScript/>} path="/typescript/*" />
         <Route element={<Navigate from="*" to="/" />} />
       </Routes>
     </main>

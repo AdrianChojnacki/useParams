@@ -9,7 +9,7 @@ const TypeScript = () => {
   return (
     <article>
       <h2>TypeScript</h2>
-      <p></p>
+      {/* <p>{path}</p> */}
     </article>
   );
 };
