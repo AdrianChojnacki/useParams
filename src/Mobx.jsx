@@ -20,7 +20,7 @@ const Mobx = () => {
         type="text"
       />
       <button onClick={handleOnClick}>
-        Wuślij params do TypeScript
+        Wyślij params do TypeScript
       </button>
     </article>
   );
